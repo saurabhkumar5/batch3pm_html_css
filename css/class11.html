@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        background-color: aqua;
+        width: 200px;
+        height: 200px;
+      }
+      h2 {
+        background-color: yellow;
+        width: 200px;
+        height: 200px;
+      }
+      .hola{
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+      }
+      .momo{
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+      }
+
+      @media (max-width: 500px) {
+        /* h1{
+                background-color: yellow;
+                text-align: center;
+                height: 200px;
+              } */
+            /* div{
+                display: flex;  
+                flex-direction: column;
+                align-items: center;
+            } */
+      }
+
+      /* @media (min-width:700px){
+           h1{
+            background-color: lawngreen;
+           }
+      } */
+
+      @media (min-width:800px)  and (max-width: 900px),(min-width:600px)  and (max-width: 700px){
+          h1{
+            background-color: palevioletred;
+          }
+      }
+      /* @media (min-width:600px)  and (max-width: 700px){
+          h1{
+            background-color:  slategrey;
+          }
+      } */
+      /* @media  (max-width: 500px){
+          h2{
+            background-color: green;
+          }
+      } */
+    </style>
+  </head>
+  <body>
+    <div class="hola">
+      <h1>box1</h1>
+      <h1>box2</h1>
+      <h1>box3</h1>
+      <h1>box4</h1>
+    </div>
+
+    <!-- <div class="momo">
+            <h2>kullu</h2>
+            <h2>manali</h2>
+            <h2>shimla</h2>
+            <h2>spitit</h2>
+    </div> -->
+  </body>
+</html>
