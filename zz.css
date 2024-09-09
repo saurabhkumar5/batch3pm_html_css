@@ -1,0 +1,29 @@
+/* h3{
+    background-color: lightgreen;
+    color: red;
+} */
+
+h1{
+    background-color: aqua;
+    color: red;
+}
+h2{
+    /* text-align: center; */
+    /* text-align: end; */
+    /* text-align: start; */
+
+    /* text-decoration: underline; */
+    /* text-decoration: line-through; */
+    /* text-decoration: overline; */
+
+    
+}
+
+p{
+    /* font-weight: bold; */
+    /* font-weight: bolder; */
+    /* font-size: 10px; */
+
+    /* line-height: 5px; */
+    letter-spacing: -3px;
+}
